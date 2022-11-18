@@ -26,7 +26,7 @@ body {
 }
 
 .header-content {
-    color: #9cdfa0;
+    color: #F1F1F1;
     width: 100%;
     max-width: 1000px;
     display: flex;
@@ -38,10 +38,10 @@ body {
 }
 
 .hero-container {
-    background: url('img/devou_scenic.jpg') center no-repeat;
+    background-image: url('img/devou_scenic_hole.jpg') center no-repeat;
     background-size: cover;
-    height: 80vh;
-    padding: 0;
+    height: 380px;
+    padding: 8px 0;
     margin: 0;
     display: flex;
     align-items: center;
@@ -55,14 +55,17 @@ body {
     text-align: center;
     padding: 24px;
     margin: 0 auto;
+ 
+
 }
 
 .about-container {
-    background: #29326a;
+    background: #119b49;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 48px 0;
+    padding: 8px 0;
+
 }
 
 .about-content {
@@ -71,72 +74,87 @@ body {
     max-width: 1000px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 12px;
 }
 
 .scores-container {
-    background: #232443;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 48px 0;
-}
-
-.scores-content {
-    color: #F1F1F1;
-    width: 100%;
-    max-width: 1000px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 12px;
-}
-.scores-item {
-
-}
-
-.contact-container {
-    background: #232443;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 48px 0;
-}
-
-.contact-content {
-    color: #2c0606;
-    width: 100%;
-    max-width: 1000px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 12px;
-}
-.contact-item {
-    color: #2c0606;
-    width: 100%;
-    max-width: 1000px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 12px;
-}
-
-.footer-container {
-    background: #1b1b27;
+   
+    background-color: #c5dcec;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 8px 0;
 }
 
+.scores-content {
+    color: #024d2e;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 12px;
+    margin: 0;
+}
+}
+.scores-item {
+    color: #437505;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding: 12px;
+    margin: 0;
+}
+
+.contact-container {
+    background: #060dd7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.contact-content {
+    color: #F1F1F1;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+.contact-item {
+    color: #437505;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.footer-container {
+    background: #437505;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0;
+}
+
 .footer-content {
-    font-size: 13px;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
     color: #F1F1F1;
     width: 100%;
     max-width: 1000px;
@@ -150,14 +168,14 @@ a {
 }
 
 a:visited {
-    
+    opacity: 0.7;
 }
 
 a:focus {
-    
+    opacity: 0.7;
 }
 a:hover, a:active {
-
+    opacity: 0.7;
 }
 
 /* .hero-container .btn, .hero-container .btn:visited  {
@@ -178,18 +196,18 @@ a:hover, a:active {
 
 .hero-content .btn, .hero-content .btn:visited  {
     width: 100%;
-    max-width: 260px;
-    background: #f08527;
+    max-width: 360px;
+    background: #c5dcec;
     color: #1b1b27;
-    border: 2px solid #f08527;
+    border: 2px solid #090909;
     border-radius: 12px;
-    padding: 12px 24px;
+    padding: 12px 12px;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
-    margin: 12px auto 24px;
+    margin: 12px auto 12px;
     display: block;
 }
 
@@ -210,18 +228,18 @@ a:hover, a:active {
 }
 .btn, .btn:visited  {
     width: 100%;
-    max-width: 180px;
-    background: #f08527;
+    max-width: 360px;
+    background: #f7f5f6;
     color: #1b1b27;
-    border: 2px solid #f08527;
-    border-radius: 12px;
-    padding: 12px 24px;
+    border: 2px solid #0c0c0c;
+    border-radius: 4px;
+    padding: 0px;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
-    margin: 12px 0 24px;
-    display: block;
+   
+    display: inline-flex;
 }
 
 .btn:hover, .btn:focus, .btn:active {
@@ -310,7 +328,7 @@ footer {
 
 .about-photo {
     width: 100%;
-    max-width: 320px;
+    max-width: 720px;
 }
 
 
