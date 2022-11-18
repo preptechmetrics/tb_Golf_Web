@@ -38,23 +38,26 @@ body {
 }
 
 .hero-container {
-    background-color: #666666;
+    background-color: #1887e1;
     background-size: cover;
-    height: 380px;
-    padding: 8px 0;
+    height: 300px;
+    padding: 8px 8px;
     margin: 0;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
  
 }
 
 .hero-content {
+    color: #F1F1F1;
     width: 100%;
     max-width: 1000px;
+    flex-direction: column;
+    justify-content: space-between;
     text-align: center;
-    padding: 24px;
-    margin: 0 auto;
+    padding: 0px;
+    margin: 0;
  
 }
 
@@ -79,6 +82,7 @@ body {
 }
 
 .scores-container {
+    width: 100%;
     height: auto;
     background-color: #c5dcec;
     display: flex;
@@ -101,6 +105,8 @@ body {
 
 .scores-item {
     color: #437505;
+    width: 100%;
+    max-width: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -110,12 +116,13 @@ body {
 }
 
 .contact-container {
+    width: 100%;
     background: #060dd7;
-    height: 100px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding:  0;
+    padding: 0;
 }
 
 .contact-content {
@@ -125,28 +132,28 @@ body {
     max-width: 1000px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 160px;
+    padding: 0px;
     margin: 0;
 
 }
 .contact-item {
     color: #437505;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     width: 100%;
     max-width: 1000px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 12px;
+    padding: 0;
     margin: 0;
 }
 
 .footer-container {
-    background: #437505;
+    background: #4e97b6;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -183,7 +190,7 @@ a:hover, a:active {
 
 .hero-content .btn, .hero-content .btn:visited  {
     width: 100%;
-    max-width: 360px;
+    max-width: 300px;
     background: #c5dcec;
     color: #1b1b27;
     border: 2px solid #090909;
@@ -225,7 +232,7 @@ a:hover, a:active {
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
-   
+
     display: inline-flex;
 }
 
@@ -318,7 +325,12 @@ footer {
     max-width: 720px;
 }
 
-
+.hero-photo {
+    display: flex;
+    width: 100%;
+    max-width: 360px;
+  
+}
 /* 	
 =============================================================================
  MEDIA QUERIES
